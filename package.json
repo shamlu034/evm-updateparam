@@ -1,0 +1,9 @@
+{
+  "name": "evm_updateparam",
+  "version": "1.0.0",
+  "main": "evm-updateparam.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@initia/initia.js": "^0.2.27"
+  }
+}
