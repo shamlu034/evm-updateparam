@@ -145,7 +145,7 @@ async function main() {
    *    - This sends the signed transaction to be processed on-chain,
    *      where it will update the EVM parameters if everything is valid.
    */
-  console.log("Sending transaction:", Buffer.from(signedTx.toBytes()) );
+  console.log("Sending transaction:", Buffer.from(signedTx.toBytes()).toString() );
   await client.tx.broadcast(signedTx);
 }
 
